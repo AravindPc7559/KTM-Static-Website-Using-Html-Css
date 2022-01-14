@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@700&family=Roboto+Condensed:wght@700&family=Stylish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Oswald:wght@700&family=Roboto+Condensed:wght@700&family=Stylish&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*HEADER PORTION*/
+
+.backgroundVideo video {
+  width: 100%;
+  padding-top: -10px;
+  margin-top: -48px;
+}
+.menu {
+  display: flex;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  margin-left: 59px;
+}
+.category {
+  margin: 13px;
+  margin-top: 70px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.mainLogo {
+  position: absolute;
+  right: 0;
+  margin-right: 35px;
+}
+.mainLogo img {
+  width: 144px;
+  height: 180px;
+}
+.HeaderContents {
+  position: absolute;
+  color: white;
+  margin-left: 551px;
+  margin-top: 328px;
+}
+.mainTitle {
+  margin-left: 43px;
+}
+.mainTitle h1 {
+  font-size: 24px;
+  font-family: sans-serif;
+}
+.SubTitle {
+  margin-left: -226px;
+}
+.SubTitle h1 {
+  font-weight: 800;
+  font-size: 86px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.HeaderButtons {
+  position: absolute;
+  margin-top: -318px;
+  margin-left: 502px;
+  display: flex;
+}
+
+.btn1 {
+  width: 265px;
+  height: 74px;
+  background-color: #f60;
+  border-color: #f60;
+  border-width: 1px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn1:hover {
+  background-color: transparent;
+}
+
+.headerbtn2 {
+  margin-left: 38px;
+}
+.btn2 {
+  width: 256px;
+  height: 74px;
+  background-color: black;
+  border-color: black;
+  border-width: 1px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn2:hover {
+  background-color: transparent;
+}
+
+/*BODY PORTION*/
+
+.mainBody {
+  margin-top: 70px;
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.cardDiv {
+  /* background-color: aqua; */
+  display: flex;
+}
+.cards {
+  width: 33%;
+  height: 400px;
+  margin: 10px;
+  /* background-color: blueviolet; */
+}
+.cards2 {
+  width: 33%;
+  height: 800px;
+  margin: 10px;
+  /* background-color: blueviolet; */
+}
+.CardImg img {
+  width: 460px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.CardImg2 img {
+  width: 460px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.CardMainText {
+  text-align: center;
+  color: black;
+  font-size: 7px;
+  font-weight: 300;
+}
+.Cardtext1 {
+  margin-top: 5px;
+  color: black;
+  font-family: sans-serif;
+}
+.CardText2 {
+  text-align: center;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.Card2date {
+  margin-left: 14px;
+  margin-top: 10px;
+}
+.Card2date h1 {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.CardMainText2 {
+  margin-left: 13px;
+  margin-top: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.Cardtext2:hover {
+  color: #f60;
+  transition: 0.5s;
+}
+.Cardtext2 {
+  font-size: 30px;
+  color: black;
+  text-align: left;
+}
+.Cardpara {
+  padding-left: 15px;
+  margin-top: 38px;
+  font-size: 20px;
+  line-height: 31px;
+}
+.Cardpara p {
+  font: inherit;
+}
+.boxBody {
+  border-bottom: red;
+  margin-top: 100px;
+  width: 100%;
+  height: 650px;
+}
+.gallaryBox {
+  width: 95%;
+  height: 459px;
+  background-color: black;
+  margin: auto;
+  display: flex;
+}
+.BoxImgCollection1 {
+  width: 40%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+}
+.Boximg {
+  width: 288px;
+  height: 229px;
+}
+.Boximg img {
+  height: 229px;
+  width: 290px;
+}
+.BoxCollection2 {
+  width: 60%;
+  height: 459px;
+}
+.Boxheading {
+  color: white;
+  text-align: center;
+  margin-top: 160px;
+}
+.BoxSubHeading {
+  color: darkgray;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 9px;
+}
+.BoxButton {
+  margin: auto;
+}
+
+.BoxButton button {
+  margin-left: -511px;
+  margin-top: 140px;
+  width: 176px;
+  font-weight: bold;
+  border: white;
+  height: 66px;
+  background: transparent;
+  color: white;
+  border-style: inset;
+  border-width: thin;
+}
+.BoxButton button:hover {
+  color: #f60;
+  border-color: #f60;
+  cursor: pointer;
+}
+.join {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.joinTxt {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.joinbtn {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: -25px;
+}
+.joinbtn button {
+  width: 187px;
+  font-size: 17px;
+  height: 75px;
+  background: transparent;
+  border: #f60;
+  border-style: groove;
+  cursor: pointer;
+  border-width: revert;
+  font-weight: bold;
+  color: #f60;
+}
+.joinbtn button:hover {
+  background-color: #f60;
+  color: white;
+  transition: 0.5s;
+}
+.InfoTxt {
+  width: 100%;
+  height: 240px;
+  margin-top: 35px;
+}
+.Info {
+  text-align: center;
+  color: darkgray;
+  line-height: 27px;
+}
+.Footer {
+  width: 100%;
+  height: 650px;
+  background-color: black;
+}
+.FooterContents {
+  padding-left: 46px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.FooterTopics {
+  margin-top: 90px;
+  width: 95%;
+  height: 450px;
+  /* background-color: aqua; */
+}
+.FooterTopics h1 {
+  color: white;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+.FooterTopics ul li {
+  margin-left: 10px;
+  list-style: none;
+  margin-top: 10px;
+  font-size: 15px;
+  font-size: 18px;
+  line-height: 9px;
+}
+.list {
+  padding-top: 20px;
+}
+.FooterTopics ul li:hover {
+  color: #f60;
+}
+.lastPart {
+  display: flex;
+  justify-content: space-between;
+}
+.logoCollection {
+  display: flex;
+}
+.logo {
+  margin-left: 22px;
+  margin-top: 28px;
+  font-size: 29px;
+}
+.copyright {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.copyright h1 {
+  font-size: 14px;
+  color: lightgray;
+}
+.BackToTop {
+  cursor: pointer;
+  font-size: 10px;
+  margin-right: 108px;
+  margin-top: 14px;
+}
+.BackToTop h1 {
+  color: #f60;
+}
